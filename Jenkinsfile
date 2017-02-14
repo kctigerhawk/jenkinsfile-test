@@ -16,7 +16,7 @@ node {
 }
 
 milestone 20
-input(message: "Ready for Dev?", ok: "Go?", submitter: "developer")
+input(message: "Ready for Dev?"
 
 milestone 21
 stage "Deploy to Dev"
@@ -26,7 +26,7 @@ node {
 }
 
 milestone 30
-input(message: "Ready for UAT?", submitter: "approver")
+input(message: "Ready for UAT?")
 
 milestone 31
 stage "Deploy to UAT"
@@ -36,11 +36,11 @@ node {
 }
 
 milestone 40
-input(message: "Ready for PROD?", submitter: "approver")
+input(message: "Ready for PROD?")
 
 milestone 41
 stage "Deploy to Prod"
 
 node {
-   sh "echo deployting to Prod"
+   sh "echo deploying to Prod"
 }

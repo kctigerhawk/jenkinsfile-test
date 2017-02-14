@@ -22,6 +22,8 @@ node {
    sh "echo deploying to UAT"
 }
 
+input "Ready for prod?"
+
 stage "Deploy to Prod"
 
 node {

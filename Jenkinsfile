@@ -16,7 +16,7 @@ node {
 }
 
 milestone 20
-input(message: "Ready for Dev?"
+input(message: "Ready for Dev?")
 
 milestone 21
 stage "Deploy to Dev"

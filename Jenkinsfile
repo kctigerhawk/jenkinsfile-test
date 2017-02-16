@@ -23,7 +23,7 @@ milestone 21
 node {
    sh "echo deploying to dev"
    superDuperCustomStep {
-        println 'Doing the super duper step'
+        echo 'Doing the super duper step'
    }
 }
 
